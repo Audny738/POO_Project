@@ -1,0 +1,101 @@
+## Casos de uso
+
+**CU01:** Crear FlashCard
+**Descripción:** El usuario crea una FlashCard y se guarda en el mazo correspondiente.
+**Secuencia:**
+1. El usuario ingresa a la aplicación.
+2. El usuario selecciona algún mazo creado que se muestra en la pantalla inicial.
+3. El usuario selecciona la opción “Crear FlashCard”.
+4. Se ingresa el nombre del FlashCard.
+5. Se ingresa la pregunta y la respuesta correspondiente al FlashCard.
+**Salidas alternas:** 5.1 Si al FlashCard no se introduce alguna pregunta o su respuesta, el sistema le notificará al usuario en forma de "error".
+
+------------
+**CU02:** Crear un mazo
+**Descripción:** El usuario crea un mazo con un conjunto de FlashCards del mismo tema para estudiar.
+**Secuencia:**
+1. El usuario ingresa a la aplicación.
+2. El usuario selecciona la opción “Crear Mazo” en la pantalla inicial. A continuación, ingresa el nombre del mazo recién creado.
+**Salidas alternativas:** 2.1 Si el nombre del nuevo mazo ya ha sido utilizado, se informa al usuario y se le pedirá que ingrese otro nombre.
+
+
+------------
+
+**CU03:** Administrar mazo
+**Descripción:** El usuario podrá editar su mazo: modificando el nombre del mazo o eliminandolo por completo
+**Secuencia:**
+1. El usuario ingresa a la aplicación.
+2. El usuario selecciona algún mazo que se muestra en la pantalla incial.
+3. El usuario selecciona la opción "editar mazo".
+4. El usuario realiza los cambios que quiera a su mazo: Edita el nombre del mazo.
+5. El usuario selecciona "guardar" para que se almacenen los cambios realizados.
+6. El usuario selecciona la opción “borrar mazo”, entonces el sistema borra el mazo.
+
+------------
+
+**CU04:** Administrar FlashCard
+**Descripción:** El usuario podrá editar su FlashCard: modificando la pregunta y respuesta de su tarjeta o eliminando por completo la FlashCard
+**Secuencia:**
+1. El usuario ingresa a la aplicación.
+2. El usuario selecciona algún mazo que se muestra en la pantalla incial.
+3. El usuario selecciona la FlashCard a modificar y presiona la opción "editar".
+	1.  El usuario realiza los cambios que quiera en su FlashCard: puede cambiar la pregunta o respuesta.
+		1. El usuario selecciona "guardar" para que se almacenen los cambios realizados.
+	1. El sistema muestra las opciones que se tienen para las FlashCards correspondientes, entonces el usuario selecciona la opción “borrar”.
+
+------------
+**CU05:** Recuperar
+**Descripción:** El usuario podrá acceder a la papelera para recuperar un mazo o FlashCard que haya sido eliminado anteriormente.
+**Secuencia:**
+1. El usuario se dirige a la papelera del sistema.
+2. El usuario busca entre todos los mazos o FlashCards eliminados. 
+	1. Todos los elementos eliminados tienen un tiempo de permanencia de 7 días dentro de la papelera, después de ello son eliminadas permanentemente. 
+1. El usuario selecciona el mazo o FlashCard que desee recuperar y oprime "recuperar".
+
+------------
+**CU06:** Interacción con voz
+**Descripción:** El usuario podrá responder las preguntas establecidas previamente, por medio de la voz
+**Secuencia:**
+1. El usuario ingresa al mazo previamente creado. 
+1. El usuario oprime el botón de “Estudiar Mazo”.
+1. El sistema le mostrará al usuario los dos niveles disponibles, nivel normal y nivel contrarreloj.
+1. Una vez que el usuario seleccione el nivel el sistema comenzará a hacer las preguntas al usuario el cual deberá responder con la voz. 
+	1. Si el usuario elige el nivel normal, el sistema le hará una pregunta al usuario y el usuario deberá presionar el botón del micrófono para poder responder con su voz. 
+	1.  Si el usuario elige el nivel contrarreloj, el sistema le hará una pregunta al usuario y automáticamente se encenderá el micrófono para que el usuario responda con la voz. 
+1. Una vez que el sistema interprete la respuesta del usuario se verificará si la respuesta es correcta o incorrecta. 
+1. Independientemente de la respuesta el sistema guardará el resultado en el progreso. 
+
+**Salida alterna:** 5.1. Si el sistema no logra interpretar la respuesta del usuario, se le notificará, y el usuario tendrá que volver a decir su respuesta.
+
+------------
+
+
+**CU07:** Mirar progreso
+**Descripción:** El usuario podrá mirar las estadísticas de cada mazo creado
+**Secuencia:**
+1. El usuario ingresa a la aplicación.
+1. El usuario selecciona la opción “ver estadísticas” que se muestra en la pantalla inicial.
+1. El sistema muestra todos los mazos, entonces el usuario selecciona algún mazo para que a continuación se muestren las estadísticas 
+
+**Salida alterna:** 2.1 Si no se ha creado algún mazo previamente, al seleccionar la opción “ver estadísticas” el sistema mostrará el mensaje “no hay estadísticas que mostrar”.
+
+------------
+
+
+
+**CU08:** Programar hora de estudio
+**Descripción:** El usuario podrá asignar un horario (día y hora) a un mazo para su estudio.
+**Secuencia:**
+1. El usuario selecciona el mazo que desea programar.
+1. El usuario selecciona en “programar horario”.
+1. El usuario establece una fecha y hora para el estudio del mazo.
+1. El sistema envía la notificación al usuario de acuerdo al horario establecido para que se pueda dar inicio a contestar las preguntas.
+
+**Salidas alternas:** 3.1 Si el usuario programa a dos mazos distintos en el mismo horario el sistema lo notificará y le enviará un error.
+
+
+
+
+------------
+
+## Diagrama de Casos de Uso
