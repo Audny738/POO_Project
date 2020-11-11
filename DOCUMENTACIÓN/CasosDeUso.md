@@ -117,3 +117,49 @@
 ------------
 
 ## Diagrama de Casos de Uso
+
+para poder responder con su voz. 
+	1.  Si el usuario elige el nivel contrarreloj, el sistema le hará una pregunta al usuario y automáticamente se encenderá el micrófono para que el usuario responda con la voz. 
+1. Una vez que el sistema interprete la respuesta del usuario se verificará si la respuesta es correcta o incorrecta. 
+1. Independientemente de la respuesta el sistema guardará el resultado en el progreso. 
+
+**Salida alterna:** 5.1. Si el sistema no logra interpretar la respuesta del usuario, se le notificará, y el usuario tendrá que volver a decir su respuesta.
+
+------------
+
+
+**CU07:** Mirar progreso
+
+**Descripción:** El usuario podrá mirar las estadísticas de cada mazo creado.
+
+**Secuencia:**
+1. El usuario ingresa a la aplicación.
+1. El usuario selecciona la opción “ver estadísticas” que se muestra en la pantalla inicial.
+1. El sistema muestra todos los mazos, entonces el usuario selecciona algún mazo para que a continuación se muestren las estadísticas.
+
+**Salida alterna:** 2.1 Si no se ha creado algún mazo previamente, al seleccionar la opción “ver estadísticas” el sistema mostrará el mensaje “no hay estadísticas que mostrar”.
+
+------------
+
+
+
+**CU08:** Programar hora de estudio
+
+**Descripción:** El usuario podrá asignar un horario (día y hora) a un mazo para su estudio.
+
+**Secuencia:**
+1. El usuario selecciona el mazo que desea programar.
+1. El usuario selecciona en “programar horario”.
+1. El usuario establece una fecha y hora para el estudio del mazo.
+1. El sistema envía la notificación al usuario de acuerdo al horario establecido para que se pueda dar inicio a contestar las preguntas.
+
+**Salidas alternas:** 3.1 Si el usuario programa a dos mazos distintos en el mismo horario el sistema lo notificará y le enviará un error.
+
+
+
+
+------------
+
+## Diagrama de Casos de Uso
+
+![casosDeUso](https://lh3.googleusercontent.com/E2VaYXfyh_onmt5E1E1HkdKK_diZmaMRo9wCyFF5f3eewtdyDmtarWILuYTHHuhkG_MgvpjhgfMN2DMDjkXK4FYxpnhun4fRuL7qiXuufUGa6avLb6uM4XI7_pD3nva-Z23FCv6QvixKdScsREcsvAarUkp5sjYSHyvFU-pz277YLxpz8VRCGMW4zkLLlZnm71AMYzY81JbQwu_V4nhXECR22EL6bC4i1yT06QXByWi_jTlQpB-TJjkaFRS2-_F9Hf7O6q2MSUQZ6GMPJXvRJhMS3-_cKTd2wYm3DvhvwVcEGoNeJrmOC95iEcLZwMKhu1DiOHq_JZWnC0FxVIJFJBAk4h6XvJtmF5Amh95iQWutCkGXjFEZJMBGxrD2LEOBM5oPMEKzA1EeTPP7H5ewL8h51vDMTqlO0hgN61lYTQjGhxTvAHMT_5QAhJS_v2tN_Rq6QdywS2FWMAh5xOL2BBw6SnWjNRcGctsfOdJwjQhXCKnm5ZVcoZOSw-ohMvChE9Wkgcc_7pY7cSiTtHfp6BAAKVqd9TA84lyV0MZas7_sZ9OiskUMD5s6JRuZ8a7ezh3BFvhBb_Zq8Nkk2474-FSG2Q7L88QzbMY5JrA2EBOG9ZZY98mfIBeC-3Ucez24cSJaW11WPqWXcjxJSp5pT4mMHnInUfzLGhvVhhQSrW51WhG2xx1FsGkGBtCP=w854-h903-no?authuser=0)
