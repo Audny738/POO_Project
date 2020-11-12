@@ -4,4 +4,4 @@ Pendiente:
 - Ideas para poder implementar la API “Dialogflow”.
 
 ***
-[Inicio](https://github.com/Audny738/POO_Project "Inicio")
+| [Inicio](https://github.com/Audny738/POO_Project "Inicio") | 
