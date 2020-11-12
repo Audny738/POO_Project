@@ -8,3 +8,6 @@ Más tarde nos reunimos a presentar las ideas. La que el equipo decidió impleme
 
 Pendiente: 
 - Buscar plataformas para la organización del equipo.
+
+***
+[Inicio](https://github.com/Audny738/POO_Project "Inicio")

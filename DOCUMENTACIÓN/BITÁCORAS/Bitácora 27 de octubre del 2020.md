@@ -2,3 +2,6 @@ Se integro un nuevo integrante al equipo, se le explico la idea general del proy
 
 Pendiente: 
 - Exponer los requerimientos que cada integrante deberá escribir. 
+
+***
+[Inicio](https://github.com/Audny738/POO_Project "Inicio")
