@@ -1,6 +1,6 @@
 # Proyecto FlashCards
 
-<img src= "https://user-images.githubusercontent.com/59941091/98960129-a7f7e680-24c9-11eb-9511-2fdad8acc5bf.png" width = "100">
+<img src= "https://user-images.githubusercontent.com/59941091/98976519-11352500-24dd-11eb-9815-acc55b9d4cf1.png" width = "150">
 
 
 
