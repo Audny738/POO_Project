@@ -4,4 +4,4 @@ Pendiente:
 - Exponer los requerimientos que cada integrante deberá escribir. 
 
 ***
-[Inicio](https://github.com/Audny738/POO_Project "Inicio")
+| [Inicio](https://github.com/Audny738/POO_Project "Inicio") | 
