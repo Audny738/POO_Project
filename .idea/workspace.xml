@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9096fd39-bb20-4291-b0f6-ef5b5a7acffd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/java/com/example/final_interfaz_quizpeak/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/java/com/example/final_interfaz_quizpeak/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/java/com/example/final_interfaz_quizpeak/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/java/com/example/final_interfaz_quizpeak/LoginTabFrament.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/java/com/example/final_interfaz_quizpeak/LoginTabFrament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/java/com/example/final_interfaz_quizpeak/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/app/src/main/java/com/example/final_interfaz_quizpeak/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Final_Interfaz_QuizPeak/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="9096fd39-bb20-4291-b0f6-ef5b5a7acffd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
