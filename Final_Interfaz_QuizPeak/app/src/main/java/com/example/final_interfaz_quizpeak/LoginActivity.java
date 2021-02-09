@@ -7,7 +7,8 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+    public static  final String nombre = "names";
     TabLayout tabLayout;
     ViewPager viewPager;
 

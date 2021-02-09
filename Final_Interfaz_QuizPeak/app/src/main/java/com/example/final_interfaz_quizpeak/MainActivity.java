@@ -24,6 +24,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class MainActivity extends AppCompatActivity {
     private static int SPLASH_SCREEN = 5000;
 
+
     Animation topAnim, bottomAnim;
     ImageView image;
     TextView slogan1, slogan2;
