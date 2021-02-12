@@ -48,3 +48,8 @@ Los usuarios son estudiantes de cualquier edad o profesores que deseen estudiar 
 >[30 de Octubre del 2020](https://github.com/Audny738/POO_Project/blob/master/DOCUMENTACIÓN/BITÁCORAS/Bitácora%2030%20de%20octubre%20del%202020.md)
 
 >[04 de Noviembre del 2020](https://github.com/Audny738/POO_Project/blob/master/DOCUMENTACIÓN/BITÁCORAS/Bitácora%2004%20de%20noviembre%20del%202020.md)
+
+### Video 
+
+[Video del Proyecto](https://youtu.be/ZMjogcfcV3Y)
+
